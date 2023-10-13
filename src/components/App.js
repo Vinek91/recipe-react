@@ -13,9 +13,9 @@ function App() {
 
     <Routes>
       
-      <Route path='/recipe-react/' element={<><Header /><Content /></>} />
+      <Route path='/' element={<><Header /><Content /></>} />
        <Route path="/:recipeName" element={<RecipeDetails />} />
-       <Route path="/recipe-react/about" element={<About />} />
+       <Route path="/about" element={<About />} />
     </Routes>
     
     

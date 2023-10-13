@@ -21,7 +21,7 @@ function Navbar(){
                 <ul className="navbar-nav">
                     <li className="nav-item"><a className="nav-link" href="/" style={{ color: '#F2F2F2' }}>Accueil</a></li>
                     <li className="nav-item active"><a className="nav-link" href="/recettes" style={{ color: '#F2F2F2' }}>Recettes</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/About" style={{ color: '#F2F2F2' }}>À propos</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/about" style={{ color: '#F2F2F2' }}>À propos</a></li>
                 </ul>
             </div>
         </nav>
