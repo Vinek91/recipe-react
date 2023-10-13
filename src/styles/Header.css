@@ -7,8 +7,11 @@
     
 }
 
+.navbar-toggler-icon {
 
-
+	background-color: aliceblue;
+    padding: 0.5em;
+}
 
 .navbar .nav-link:hover,
 .navbar-dark .nav-link:hover {
@@ -17,6 +20,9 @@
 	cursor: pointer;
 }
 
+input[type="text"]{
+	width: 100%;
+}
 
 .fond {
 	background-image: url('../assets/fond_header.jpg');
