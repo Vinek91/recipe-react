@@ -21,7 +21,6 @@ function Navbar(){
             <div className="collapse navbar-collapse" id="navbarNav" style={{backgroundColor:"#0909099e"}}>
                 <ul className="navbar-nav">
                     <li className="nav-item"><Link to="/" className="nav-link" style={{ color: '#F2F2F2' }}>Accueil</Link></li>
-                    <li className="nav-item active"><Link to="/recettes" className="nav-link" style={{ color: '#F2F2F2' }}>Recettes</Link></li>
                     <li className="nav-item"><Link to="/about" className="nav-link" style={{ color: '#F2F2F2' }}>À propos</Link></li>
                 </ul>
             </div>

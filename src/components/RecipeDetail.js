@@ -59,7 +59,7 @@ return (
             <br/>
 
               <p className="">{recipeDetails.strInstructions}</p>
-              <a href="/" className="btn btn-outline-warning">Retour à l'accueil</a>
+              <Link to="/" className="btn btn-outline-warning">Retour à l'accueil</Link>
             </div>
 
 
