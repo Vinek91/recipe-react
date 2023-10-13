@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/recipe-react/static/css/main.ab79e80f.css",
-    "main.js": "/recipe-react/static/js/main.487bad65.js",
+    "main.js": "/recipe-react/static/js/main.71b796bc.js",
     "static/js/787.ad793b97.chunk.js": "/recipe-react/static/js/787.ad793b97.chunk.js",
     "static/media/header_background.png": "/recipe-react/static/media/header_background.e34918e4411786b92388.png",
     "static/media/fond_header.jpg": "/recipe-react/static/media/fond_header.d97e445074d01d5d36e7.jpg",
@@ -10,11 +10,11 @@
     "static/media/lasagne.avif": "/recipe-react/static/media/lasagne.f97d99cafaef4efdd05e.avif",
     "index.html": "/recipe-react/index.html",
     "main.ab79e80f.css.map": "/recipe-react/static/css/main.ab79e80f.css.map",
-    "main.487bad65.js.map": "/recipe-react/static/js/main.487bad65.js.map",
+    "main.71b796bc.js.map": "/recipe-react/static/js/main.71b796bc.js.map",
     "787.ad793b97.chunk.js.map": "/recipe-react/static/js/787.ad793b97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab79e80f.css",
-    "static/js/main.487bad65.js"
+    "static/js/main.71b796bc.js"
   ]
 }
