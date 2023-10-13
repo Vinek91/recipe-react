@@ -1,6 +1,7 @@
 import '../styles/Header.css'
 import background from '../assets/header_background.png'
 import React, { useState } from 'react';
+import { Route, Switch, Link } from "react-router-dom";
 
 import SearchRecipe from './RestApi' 
 
@@ -19,9 +20,9 @@ function Navbar(){
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarNav" style={{backgroundColor:"#0909099e"}}>
                 <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link" href="/" style={{ color: '#F2F2F2' }}>Accueil</a></li>
-                    <li className="nav-item active"><a className="nav-link" href="/recettes" style={{ color: '#F2F2F2' }}>Recettes</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/about" style={{ color: '#F2F2F2' }}>À propos</a></li>
+                    <li className="nav-item"><Link to="/" className="nav-link" style={{ color: '#F2F2F2' }}>Accueil</Link></li>
+                    <li className="nav-item active"><Link to="/recettes" className="nav-link" style={{ color: '#F2F2F2' }}>Recettes</Link></li>
+                    <li className="nav-item"><Link to="/about" className="nav-link" style={{ color: '#F2F2F2' }}>À propos</Link></li>
                 </ul>
             </div>
         </nav>
