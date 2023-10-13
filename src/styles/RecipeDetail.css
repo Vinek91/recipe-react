@@ -1,0 +1,80 @@
+h1{
+    color: #F2A007;
+}
+h2{
+    color: #F2A007;
+}
+.container-detail {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #171717;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em;
+    border-radius: 15px;
+  }
+
+
+  
+  .ingredient-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .ingredient-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+  }
+  .list-group-ingredient {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+    overflow-y: auto;
+    max-height: 41vh;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.col-lg-6 {
+	flex: 1;
+	padding: 10px;
+}
+
+.list-group-item-ingredient {
+	border: 1px solid #3fbbc0;
+	border-radius: 5px;
+	margin: 10px;
+    list-style-type: none;
+	padding: 10px;
+}
+
+.list-group-ingredient ul {
+	list-style: none;
+	padding: 0;
+}
+
+.list-group-ingredient li {
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+    background-color: #1b1b1b;
+}
+
+.list-group-ingredient li:hover {
+	background-color: #F2A007;
+}
+
+.list-group-ingredient li:last-child {
+	border-bottom: none;
+}

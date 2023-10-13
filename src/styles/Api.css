@@ -1,0 +1,89 @@
+
+
+::-webkit-scrollbar-track {
+
+
+	background-color: transparent;
+}
+
+::-webkit-scrollbar {
+	width: 3.5px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #F2A007;
+}
+
+/* styles pour la liste des médecins */
+.list-group {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow-y: auto;
+    max-height: 23vh;
+    z-index: 8888888;
+	background-color: #171717;
+    width: 98.1%;
+
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.col-lg-6 {
+	flex: 1;
+	padding: 10px;
+}
+
+.list-group-item {
+	border: 1px solid #3fbbc0;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.list-group ul {
+	list-style: none;
+	padding: 0;
+}
+
+.list-group li {
+    background-color: #171717;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    z-index: 99;
+    padding: 3px;
+}
+
+.list-group li:hover {
+	background-color: #F2A007;
+}
+
+.list-group li:last-child {
+	border-bottom: none;
+}
+
+
+
+.col-lg-6 {
+
+	width: 50%;
+	margin-left: 15px;
+}
+
+
+.search-recipe {
+    position: absolute;
+    top: 15.5em;
+    width: 60%;
+  }
+
+
+a{
+	color: white !important;
+	text-decoration: none !important;
+}
