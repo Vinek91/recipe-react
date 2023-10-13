@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import '../styles/RecipeDetail.css';
-
+import { Route, Switch, Link } from "react-router-dom";
 
 function RecipeDetails() {
     
