@@ -24,7 +24,8 @@ const Loading = () => {
                 </div>
             ) : (
                 <div className='loading'>
-                    <h1>Loading...</h1>
+                    <h1>Chargement en cours... ⌛</h1>
+                    <ReactLoading type='cylon' color='#F2A007' height={100} width={100} />
                 </div>
             )}
         </div>
