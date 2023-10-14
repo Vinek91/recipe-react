@@ -7,7 +7,7 @@ h2{
 .container-detail {
     width: 90%;
     margin: 0 auto;
-    background-color: #171717;
+    background-color: #171717de;
     color: white;
     margin-top: 5em;
     margin-bottom: 5em;
@@ -77,4 +77,21 @@ h2{
 
 .list-group-ingredient li:last-child {
 	border-bottom: none;
+}
+
+body{
+  background-image: url('../assets/DALL·E\ 2023-10-14\ 22.59.57\ -\ cooking\ black\ wallpaper.png');
+  background-size: cover;
+}
+
+.close{
+  text-align: right;
+  font-size: 3em;
+  padding: 0.3em;
+  cursor: pointer;
+  
+}
+
+.close a{
+  color: #F2A007 !important;
 }

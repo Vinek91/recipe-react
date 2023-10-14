@@ -24,7 +24,6 @@ const urlApi2 ='https://www.themealdb.com/api/json/v1/1/';
 const apiKey2 = '1';
 
 function SearchRecipe({ recipe }) {
-    console.log("recipe : "+recipe)
     const [recipes, setRecipes] = useState([]);
     const [error, setError] = useState(null);
 
@@ -34,7 +33,6 @@ function SearchRecipe({ recipe }) {
                 fetch(`${urlApi2}search.php?s=${recipe}&apiKey=${apiKey2}`)
                     .then((response) => response.json())
                     .then((result) => {
-                        console.log("result : "+JSON.stringify(result))
                         if (result.meals) {
                             setRecipes(result.meals);
                         } else {

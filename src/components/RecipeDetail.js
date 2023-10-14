@@ -29,9 +29,11 @@ function RecipeDetails() {
 // ... (votre code existant)
 
 return (
+  
     <div className="container-detail">
       {recipeDetails ? (
         <div>
+          <div className='close'> <Link to="/">X</Link></div>
           <h1>{recipeDetails.strMeal}</h1>
                 <img src={recipeDetails.strMealThumb} alt={recipeDetails.strMeal} style={{width:"30%", borderRadius:"15px",margin:"2em"}}/>
               <div style={{display:"flex"}}>

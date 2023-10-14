@@ -6,7 +6,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 
 
 function Presentation(){
-    console.log("azertyudexiop")
+
     return(
         <div className='Content'>
             <h2>Nos recettes du moment !</h2>
