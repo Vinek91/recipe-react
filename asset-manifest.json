@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/recipe-react/static/css/main.38e2a0d3.css",
-    "main.js": "/recipe-react/static/js/main.870d25a8.js",
+    "main.css": "/recipe-react/static/css/main.da74d4e6.css",
+    "main.js": "/recipe-react/static/js/main.eb502dcb.js",
     "static/js/787.ad793b97.chunk.js": "/recipe-react/static/js/787.ad793b97.chunk.js",
     "static/media/header_background.png": "/recipe-react/static/media/header_background.e34918e4411786b92388.png",
     "static/media/DALL·E 2023-10-14 22.59.57 - cooking black wallpaper.png": "/recipe-react/static/media/DALL·E 2023-10-14 22.59.57 - cooking black wallpaper.cbb2e0c876b72cef0475.png",
@@ -11,12 +11,12 @@
     "static/media/lasagne.avif": "/recipe-react/static/media/lasagne.f97d99cafaef4efdd05e.avif",
     "static/media/blob-scene-haikei (1).svg": "/recipe-react/static/media/blob-scene-haikei (1).324e0f4e74c657d0a4b3.svg",
     "index.html": "/recipe-react/index.html",
-    "main.38e2a0d3.css.map": "/recipe-react/static/css/main.38e2a0d3.css.map",
-    "main.870d25a8.js.map": "/recipe-react/static/js/main.870d25a8.js.map",
+    "main.da74d4e6.css.map": "/recipe-react/static/css/main.da74d4e6.css.map",
+    "main.eb502dcb.js.map": "/recipe-react/static/js/main.eb502dcb.js.map",
     "787.ad793b97.chunk.js.map": "/recipe-react/static/js/787.ad793b97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e2a0d3.css",
-    "static/js/main.870d25a8.js"
+    "static/css/main.da74d4e6.css",
+    "static/js/main.eb502dcb.js"
   ]
 }
