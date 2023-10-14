@@ -33,7 +33,7 @@ return (
       {recipeDetails ? (
         <div>
           <h1>{recipeDetails.strMeal}</h1>
-                <img src={recipeDetails.strMealThumb} alt={recipeDetails.strMeal} style={{width:"250px",height:"250px", borderRadius:"15px",margin:"2em"}}/>
+                <img src={recipeDetails.strMealThumb} alt={recipeDetails.strMeal} style={{width:"30%", borderRadius:"15px",margin:"2em"}}/>
               <div style={{display:"flex"}}>
                 <h2>Ingrédients</h2><hr></hr>
                 
@@ -55,10 +55,31 @@ return (
                 return null;
               })}
             </ul>
+            
             <hr></hr>
             <br/>
 
-              <p className="">{recipeDetails.strInstructions}</p>
+            <ul className="">
+              {recipeDetails.strInstructions.split('\n').map((step, index) => {
+                const trimmedStep = step.trim();
+                if (trimmedStep !== "") {
+                  return <p key={index}>{trimmedStep}</p>;
+                }
+                return null;
+              })}
+          </ul>
+
+          <br/>
+          
+   
+          <iframe width="100%" height="515" src={'https://www.youtube.com/embed/'+recipeDetails.strYoutube.split('v=')[1]} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <br/>
+
+
+
+              <br/>
+              <br/>
+              <br/>
               <Link to="/" className="btn btn-outline-warning">Retour à l'accueil</Link>
             </div>
 

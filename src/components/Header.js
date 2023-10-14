@@ -45,8 +45,7 @@ function Fond() {
         setValue(''); // Efface la valeur de l'input
     };
 
-    console.log("le recipe est : " + recipe)
-
+    
     return (
         <div className="fond">
             <h1>Bienvenue sur notre site RECIPES :</h1>

@@ -1,0 +1,17 @@
+.footer p{
+    color: white;
+}
+
+.footer{
+    background-color: #171717;
+    padding: 1em;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span{
+    color: #F2A007;
+}
